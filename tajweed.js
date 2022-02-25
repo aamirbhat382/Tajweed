@@ -1,4 +1,4 @@
-export default class Tajweed{
+﻿class Tajweed{
 
     constructor(){
 
@@ -194,7 +194,7 @@ export default class Tajweed{
     {
         let re_1 = new RegExp("(\\[)", "ig");  
         text = text.replace(re_1, '">');
-        var re_2 = new RegExp("(\\])", "ig");  
+        let re_2 = new RegExp("(\\])", "ig");  
         text = text.replace(re_2, '</tajweed>');
 
         return text;
@@ -209,7 +209,7 @@ export default class Tajweed{
         return this.meta;
     }
 }
-export default class class Buck {
+class Buck {
 
     constructor() {
         this.chars = "آ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي"
@@ -283,5 +283,7 @@ export default class class Buck {
 
   }
 
-
-
+module.exports = {
+  Tajweed: Tajweed,
+  Buck: Buck
+};

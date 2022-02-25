@@ -1,11 +1,19 @@
 {
   "name": "tajweed",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
   "main": "tajweed.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "aamir bhat",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aamirbhat382/Tajweed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aamirbhat382/Tajweed/issues"
+  },
+  "homepage": "https://github.com/aamirbhat382/Tajweed#readme",
+  "description": ""
 }
